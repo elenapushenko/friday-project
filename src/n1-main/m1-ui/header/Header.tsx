@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import {NEW_PASSWORD_PATH, PASSWORD_RECOVERY_PATH, PROFILE_PATH, REGISTER_PATH, SIGN_IN_PATH} from "../routes/Routes";
 import GeneralLink from "../common/GeneralLink";
 

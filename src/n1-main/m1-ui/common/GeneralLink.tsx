@@ -11,7 +11,7 @@ type PropsType = OwnPropsType
 const GeneralLink: React.FC<PropsType> = (props) => {
     return (
         <div>
-            <NavLink to={props.path}>title={props.title} </NavLink>
+            <NavLink to={props.path}>{props.title} </NavLink>
         </div>
     );
 };
